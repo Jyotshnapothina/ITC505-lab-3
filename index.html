@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Explore Arizona</title>
+<link rel="stylesheet" href="arizonastyle.css">
+</head>
+<body>
+<div class="container">
+    <header>
+        <h1 class="header-title">Explore Arizona....(◕‿◕)</h1> 
+        <nav>
+            <div id="about" class="button"><a href="#about">About</a></div>
+            <div id="search" class="button"><a href="#search">Search</a></div>
+            <div id="contact" class="button"><a href="#contact">Contact Us</a></div>
+        </nav>
+    </header>
+    <div class="place-container" >
+        <div class="place" id="grand-canyon">
+            <img src="images/grandcanyon.jpg" alt="Grand Canyon">
+            <h2>Grand Canyon</h2>
+            <p>Iconic natural wonder.</p>
+            <p class="distance">Distance from nearest city: 80 miles</p>
+            <p class="transportation">Modes of transportation available: Car, bus, helicopter tours</p>
+            <p class="location">Location: latitude 36°18′35.64″ North, longitude 112°47′00.60″ West.</p>
+            <p class="content">The Grand Canyon, located in Arizonais a massive natural wonder carved by the Colorado River over millions of years. It boasts stunning rock formations and breathtaking vistas, drawing visitors from around the world to marvel at its beauty and geological significance.</p>
+        </div>
+        <div class="place">
+            <img src="images/sedona.jpg" alt="Sedona">
+            <h2>Sedona</h2>
+            <p>Red rock formations and spiritual retreats.</p>
+            <p class="distance">Distance from nearest city: 120 miles</p>
+            <p class="transportation">Modes of transportation available: Car, bus, hiking tours</p>
+            <p class="location">Location: Latitude 34°52′07″N, Longitude 111°44′03″W (North of Phoenix, Arizona)</p>
+            <p class="content">Sedona, nestled in the heart of Arizona, is renowned for its majestic red rock formations and spiritual allure. Visitors are captivated by the stunning scenery and vibrant energy of this desert town, which offers opportunities for outdoor adventure, spiritual rejuvenation, and artistic inspiration.</p>
+        </div>
+        <div class="place">
+            <img src="images/AntelopeCanyon.jpg" alt="Antelope Canyon">
+            <h2>Antelope Canyon</h2>
+            <p>Slot canyon with stunning rock formations.</p>
+            <p class="distance">Distance from nearest city: 130 miles</p>
+            <p class="transportation">Modes of transportation available: Car, guided tours</p>
+            <p class="location">Location: Latitude 36°51′51.48″N, Longitude 111°24′32.04″W (Near Page, Arizona)</p>
+            <p class="content">Antelope Canyon, located near Page, Arizona, is a mesmerizing slot canyon renowned for its captivating light beams and swirling sandstone formations. Carved over millions of years by wind and water, this natural wonder offers a surreal and otherworldly experience for photographers, adventurers, and nature enthusiasts alike.</p>
+        </div>    
+        <div class="place">
+            <img src="images/lowell_observatory.jpg" alt="Lowell Observatory">
+            <h2>Lowell Observatory</h2>
+            <p>Astronomical observatory known for its discoveries.</p>
+            <p class="distance">Distance from nearest city: 2 miles</p>
+            <p class="transportation">Modes of transportation available: Car, shuttle service</p>
+            <p class="location">Location: Latitude 35°12′07″N, Longitude 111°39′00″W (Near Flagstaff, Arizona)</p>
+            <p class="content">The Lowell Observatory, situated in Flagstaff, Arizona, is a historic astronomical research facility known for its groundbreaking discoveries and contributions to the field of astronomy. The discovery of Pluto was made by astronomer Clyde Tombaugh while he was working at Lowell Observatory. Founded in 1894, it continues to inspire curiosity and scientific exploration, offering visitors the chance to gaze at distant galaxies and ponder the mysteries of the cosmos.</p>
+        </div>
+    </div>
+</div>
+<footer>
+    <p>Last updated: 
+        <span id="lastModified"></span>
+    </p>
+</footer>
+<script type="text/javascript">
+     var x = document.lastModified;
+     document.getElementById('lastModified').textContent = x;
+</script>
+</body>
+</html>
